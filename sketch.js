@@ -56,13 +56,14 @@ function draw() {
   
 //color block
   noStroke();
-  // //for (i = 0; i < 10; i++){
-    fill(colour, 100, 100, 20);
+  for (i = 0; i < 5; i++){
+    fill(colour, random(100), random(100), random(20, 30));
   if (frameCount%7==0){
   
-  colour = random(100);
+  colour = random(360);
   }
-    rect(random(width*.55,width*.8), 0, random(width*.55), height)
+    rect(random(width*.55,width*.8), 0, random(width*.55), height);
+}
   //rect(0, 0, width, height);
 
  //if (frameCount%10==0){

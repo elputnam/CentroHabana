@@ -66,16 +66,16 @@ function draw() {
   //rect(0, 0, width, height);
 
  //if (frameCount%10==0){
-  push();
-  translate(width*.57, 0)
-  grid();
-  pop();
+  // push();
+  // translate(width*.57, 0)
+  // grid();
+  // pop();
   //}
    //EL2
    push();
    tint(colour, random(100), random(100), 50);
    
-   image(EL2, 0, 0, EL2.width/2, EL2.height/2);
+   image(EL2, 0, 10, EL2.width/2, EL2.height/2);
    blend(EL2, 0, 0, EL2.width, EL2.height, 0, 0, EL2.width/2, EL2.height/2, LIGHTEST);
    pop();
   

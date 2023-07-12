@@ -1,3 +1,5 @@
+//a flickering generative collage in Central Havana, writing postcards in an ethanol haze
+
 let EL1;
 let EL2;
 let dad;
